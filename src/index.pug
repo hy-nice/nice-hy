@@ -1,0 +1,204 @@
+doctype html
+html
+    head
+        include includes/meta.pug
+        title kimheeyong|Portfolio
+    body
+        header 
+            .gnb_wrap
+                .gnb
+                    .gnb_left
+                        h1 
+                            a.logo(href="fuga.html")
+                                img(src="../image/logo.png", alt="logo", title="logo")
+                    .gnb_right
+                        .gnb_right_content
+                            a.about_bt(href="#") about 
+                            a.all_bt(href="#")
+                                img(src="../image/icon_allmenu.svg", alt="menu" title="menu") 
+                        .works_modal
+                            .works_back
+                            .works_body work
+                                .works_close
+                                    span 
+                                    span 
+                                nav.works_menu
+                                    ul.works_menu_left
+                                        li
+                                            a(href="works/iinexus/") 株式会社 IINEXUS
+                                        li
+                                            a(href="works/wrdtrans/") 株式会社 ワールドトランス
+                                        li
+                                            a(href="works/andscan/") ANDSCAN
+                                        li
+                                            a(href="works/raon/") RAON 株式会社
+                                        li
+                                            a(href="works/hba/") 株式会社 HBA
+                                        li
+                                            a(href="works/kokusai/") 国際貿易 株式会社
+                                        li
+                                            a(href="works/marvel/") 株式会社 MARVEL【韓国公式】
+                                    ul.works_menu_right
+                                        li
+                                            a(href="works/applerepair/") 株式会社 AR IPHONE修理専門
+                                        li
+                                            a(href="works/mini/") BMW MINI KOREA
+                                        li
+                                            a(href="works/nayeju/") 株式会社 拿叡姝(ナイェジュ)
+                                        li
+                                            a(href="works/lexus/") 株式会社 TOYOTA MOTOR KOREA (LEXUS)
+                                        li
+                                            a(href="works/canon/") 株式会社 CANON KOREA
+                                        li
+                                            a(href="works/jinro/") 眞露 株式会社 (JINRO)
+                                        li
+                                            a(href="works/topri/") 株式会社 トプリ
+        main.main
+            .background-color-layer
+            section.main_visual
+                .main_visual_wrap
+                    .main_visual_wrap__video
+                        video(
+                            playsinline
+                            muted
+                            autoplay
+                            loop="2"
+                            poster="../image/poster.png"
+                            ata-aos="fade-down"
+                            data-aos-easing="linear"
+                            data-aos-duration="600"
+                            )
+                            source(src="../image/bg7_bak.mp4", type="video/mp4")
+                    div.index_txt(ata-aos="fade-down", data-aos-easing="linear", data-aos-duration="1500")
+                        span.index_top(
+                            data-aos="fade-down", data-aos-easing="linear", data-aos-duration="500"
+                        ) Web Design, Publishing
+                        span.index_title(
+                            data-aos="fade-down", data-aos-easing="linear", data-aos-duration="700"
+                        ) portfolio
+                        span.index_date(
+                            data-aos="fade-down", data-aos-easing="linear", data-aos-duration="900"
+                        ) KIM HEEYONG 2021 Vol.01
+                    div
+                        img.scroll_line(src="../image/scroll_line.png", alt="mouses croll", title="mouse scroll", data-aos-easing="linear", data-aos-duration="1300")
+                        a.mouse_scroll(href="#")
+                            img(src="../image/mousescroll.png", alt="mouses croll", title="mouse scroll", data-aos-easing="linear", data-aos-duration="1300") 
+            section.main_publishing
+                .main_publishing__content
+                    .card(data-aos="fade-down", data-aos-easing="linear", data-aos-duration="1500")
+                        h2 works
+                        .card_block
+                            .port_img(data-aos="fade-down", data-aos-easing="linear", data-aos-duration="1000")
+                                img.img-responsive(src="../image/works/gaiso/thum_gaiso.png")
+                                span.img_title GAISO
+                                span.img_subtit markup
+                            .port_txt(data-aos="fade-down", data-aos-easing="linear", data-aos-duration="1000")
+                                .left
+                                    p
+                                        | 会社紹介サイト開発
+                                        br
+                                        br
+                                        | ≪担当業務≫
+                                        br
+                                        | フロント開発, 結合テスト, エラーテスト
+                                        br
+                                        | バグ修正, 保守・運用, Sass設計
+                                .right
+                                    table 
+                                        tr
+                                            th project
+                                            th リフォーム ガイソー
+                                        tr
+                                            td 期 間
+                                            td 2021年4月 ~ 2021年4月
+                                        tr
+                                            td 役 割
+                                            td FRONT-END ENGINER
+                                        tr
+                                            td 使用言語
+                                            td HTML, jQuery, JAVASCRIPT, CSS, sass
+                        .card_block 
+                        .card_block 
+                        .card_block 
+                        .card_block 
+                        .card_block 
+                        .card_block 
+                        .card_block 
+                        .card_block 
+                        .card_block 
+                        .card_block 
+                        .card_block 
+                        .card_block 
+                        .card_block 
+                        .card_block 
+                        .card_block 
+                        .card_block 
+                        .card_block 
+                    .card.about(data-aos="fade-down", data-aos-easing="linear", data-aos-duration="1500")
+                        h2 about
+                        .card_block
+                            .pro_img.left
+                                img.img-responsive.about_bg.pc-only(src="../image/about_bg.png", data-aos="fade-right", data-aos-easing="linear", data-aos-duration="500")
+                                img.img-responsive.about_thum(src="../image/me.png", data-aos="fade-right", data-aos-easing="linear", data-aos-duration="1000")
+                            .pro_txt.right
+                                span(data-aos="fade-down", data-aos-easing="linear", data-aos-duration="500") Front-End Engineer    
+                                p(data-aos="fade-down", data-aos-easing="linear", data-aos-duration="500") KIM HEEYONG / キム ヒヨン
+                                .education(data-aos="fade-down", data-aos-easing="linear", data-aos-duration="500")
+                                    p.pro_tit education
+                                    p ソウルデジタル大学校 卒業
+                                .skill(data-aos="fade-down", data-aos-easing="linear", data-aos-duration="700")
+                                    p.pro_tit Skills
+                                    ul
+                                        li                      
+                                            .skill_con
+                                                img.skill_img.left(src="../image/about_ps.svg")
+                                                .skill_txt.left
+                                                    span.skill_tit Adobe Photoshop
+                                                    .skill_bar_active.skill_ps
+                                                    span.skill_bar
+                                        li                      
+                                            .skill_con
+                                                img.skill_img.left(src="../image/about_ai.svg")
+                                                .skill_txt.left
+                                                    span.skill_tit Adobe Illustrator
+                                                    .skill_bar_active.skill_ai
+                                                    span.skill_bar
+                                        li                      
+                                            .skill_con
+                                                img.skill_img.left(src="../image/about_xd.svg")
+                                                .skill_txt.left
+                                                    span.skill_tit Adobe XD
+                                                    .skill_bar_active.skill_xd
+                                                    span.skill_bar
+                                        li                      
+                                            .skill_con
+                                                img.skill_img.left(src="../image/about_html.svg")
+                                                .skill_txt.left
+                                                    span.skill_tit Adobe HTML
+                                                    .skill_bar_active.skill_html
+                                                    span.skill_bar
+                                        li                      
+                                            .skill_con
+                                                img.skill_img.left(src="../image/about_css.svg")
+                                                .skill_txt.left
+                                                    span.skill_tit CSS
+                                                    .skill_bar_active.skill_css
+                                                    span.skill_bar
+                                        li                      
+                                            .skill_con
+                                                img.skill_img.left(src="../image/about_js.svg")
+                                                .skill_txt.left
+                                                    span.skill_tit Java Script (jQuery)
+                                                    .skill_bar_active.skill_js
+                                                    span.skill_bar
+                                .contact(data-aos="fade-down", data-aos-easing="linear", data-aos-duration="500", data-aos-offset="0")
+                                    p.pro_tit contact
+                                    .line_bt
+                                        a(href="https://line.me/ti/p/1ZHdBn4tTL", target="_blink")
+                                            span LINE
+                                        a(href="mailto:heeyong8146@gmail.com", title="send", target="")
+                                            span E-mail 
+        footer
+            .footer COPYRIGHT © 2021 KIMHEEYONG ALL RIGHTS RESERVED.
+        .gotop
+            span top
