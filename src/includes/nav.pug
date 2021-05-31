@@ -1,0 +1,68 @@
+-
+    var worksLeft = [
+    {
+        pageName: '株式会社 IINEXUS',
+        pageDir: 'iinexus'
+    },
+    {
+        pageName: '株式会社 ワールドトランス',
+        pageDir: 'wrdtrans'
+    },
+    {
+        pageName: 'ANDSCAN',
+        pageDir: 'andscan'
+    },
+    {
+        pageName: 'RAON 株式会社',
+        pageDir: 'raon'
+    },
+    {
+        pageName: '株式会社 HBA',
+        pageDir: 'hba'
+    },
+    {
+        pageName: '国際貿易 株式会社',
+        pageDir: 'kokusai'
+    },
+    {
+        pageName: '株式会社 MARVEL【韓国公式】',
+        pageDir: 'marvel'
+    }
+    ]
+-
+    var worksRight = [
+    {
+        pageName: '株式会社 AR IPHONE修理専門',
+        pageDir: 'applerepair'
+    },
+    {
+        pageName: 'BMW MINI KOREA',
+        pageDir: 'mini'
+    },
+    {
+        pageName: '株式会社 拿叡姝(ナイェジュ)',
+        pageDir: 'nayeju'
+    },
+    {
+        pageName: '株式会社 TOYOTA MOTOR KOREA (LEXUS)',
+        pageDir: 'lexus'
+    },
+    {
+        pageName: '株式会社 CANON KOREA',
+        pageDir: 'canon'
+    },
+    {
+        pageName: '眞露 株式会社 (JINRO)',
+        pageDir: 'jinro'
+    },
+    {
+        pageName: '株式会社 トプリ',
+        pageDir: 'topri'
+    }
+    ]
+ul.works_menu_left
+  each workLeft in worksLeft
+    li: a(href='works'+'/'+workLeft['pageDir']+'/') #{workLeft['pageName']}
+ul.works_menu_right
+  each workRight in worksRight
+    li: a(href='works'+'/'+workRight['pageDir']+'/') #{workRight['pageName']}

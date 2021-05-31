@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "ExodusDemo-Regular";
+  src: url("font/ExodusDemo-Regular.eot");
+  src: url("font/ExodusDemo-Regular.eot?#iefix") format("embedded-opentype"),
+    url("font/ExodusDemo-Regular.svg#ExodusDemo-Regular") format("svg"),
+    url("font/ExodusDemo-Regular.ttf") format("truetype"),
+    url("font/ExodusDemo-Regular.woff") format("woff"),
+    url("font/ExodusDemo-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ExodusDemo-Stencil";
+  src: url("font/ExodusDemo-Stencil.eot");
+  src: url("font/ExodusDemo-Stencil.eot?#iefix") format("embedded-opentype"),
+    url("font/ExodusDemo-Stencil.svg#ExodusDemo-Stencil") format("svg"),
+    url("font/ExodusDemo-Stencil.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "dattebayo";
+  src: url("font/dattebayo.eot");
+  src: url("font/dattebayo.eot?#iefix") format("embedded-opentype"),
+    url("font/dattebayo.svg#dattebayo") format("svg"),
+    url("font/dattebayo.ttf") format("truetype"),
+    url("font/dattebayo.woff") format("woff"),
+    url("font/dattebayo.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}

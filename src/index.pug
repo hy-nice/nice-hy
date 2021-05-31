@@ -23,36 +23,7 @@ html
                                     span 
                                     span 
                                 nav.works_menu
-                                    ul.works_menu_left
-                                        li
-                                            a(href="works/iinexus/") 株式会社 IINEXUS
-                                        li
-                                            a(href="works/wrdtrans/") 株式会社 ワールドトランス
-                                        li
-                                            a(href="works/andscan/") ANDSCAN
-                                        li
-                                            a(href="works/raon/") RAON 株式会社
-                                        li
-                                            a(href="works/hba/") 株式会社 HBA
-                                        li
-                                            a(href="works/kokusai/") 国際貿易 株式会社
-                                        li
-                                            a(href="works/marvel/") 株式会社 MARVEL【韓国公式】
-                                    ul.works_menu_right
-                                        li
-                                            a(href="works/applerepair/") 株式会社 AR IPHONE修理専門
-                                        li
-                                            a(href="works/mini/") BMW MINI KOREA
-                                        li
-                                            a(href="works/nayeju/") 株式会社 拿叡姝(ナイェジュ)
-                                        li
-                                            a(href="works/lexus/") 株式会社 TOYOTA MOTOR KOREA (LEXUS)
-                                        li
-                                            a(href="works/canon/") 株式会社 CANON KOREA
-                                        li
-                                            a(href="works/jinro/") 眞露 株式会社 (JINRO)
-                                        li
-                                            a(href="works/topri/") 株式会社 トプリ
+                                    include includes/nav.pug
         main.main
             .background-color-layer
             section.main_visual
@@ -190,3 +161,8 @@ html
         include includes/footer.pug
         .gotop
             span top
+//- mixin link(fo, to ,name)
+//-   #{fo}(data-aos="fade-down", data-aos-easing="linear", data-aos-duration!=to)&attributes(attributes)= name
+//- +link('div', '500', 'foo')(class="btn")
+//- +link('spna', '800', 'foo')(class="btn")
+//- +link('p', '900', 'foo')(class="btn")
