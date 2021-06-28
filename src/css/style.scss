@@ -267,13 +267,25 @@ span {
               }
             }
           }
-          nav.works_menu {
+          .works_menu {
             display: flex;
             margin-top: 50px;
             font-size: 2rem;
 
+            &_left, &_right {
+              width: 50%;
+            }
+
             ul li {
               margin: 15px;
+
+              a {
+                opacity: 0.5;
+
+                &:hover {
+                  opacity: 1;
+                }
+              }
             }
           }
         }

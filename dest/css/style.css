@@ -238,12 +238,24 @@ h6 {
   transform: rotate(-45deg);
 }
 
-.gnb_wrap .gnb_right .works_modal .works_body nav.works_menu {
+.gnb_wrap .gnb_right .works_modal .works_body .works_menu {
   display: flex;
   margin-top: 50px;
   font-size: 2rem;
 }
 
-.gnb_wrap .gnb_right .works_modal .works_body nav.works_menu ul li {
+.gnb_wrap .gnb_right .works_modal .works_body .works_menu_left, .gnb_wrap .gnb_right .works_modal .works_body .works_menu_right {
+  width: 50%;
+}
+
+.gnb_wrap .gnb_right .works_modal .works_body .works_menu ul li {
   margin: 15px;
+}
+
+.gnb_wrap .gnb_right .works_modal .works_body .works_menu ul li a {
+  opacity: 0.5;
+}
+
+.gnb_wrap .gnb_right .works_modal .works_body .works_menu ul li a:hover {
+  opacity: 1;
 }
